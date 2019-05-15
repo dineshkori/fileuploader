@@ -81,6 +81,7 @@ public class CSVService {
 					i++;
 				}
 			}
+			reader.close();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			logger.error("IO Exception While Reading file");
